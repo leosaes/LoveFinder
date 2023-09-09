@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5;
+}
+
+.page {
+  height: 55.5rem;
+  width: 27rem;
+  margin: 0 auto;
+  border: 2px solid black;
+  border-radius: 15px;
+  background: rgb(255,153,113);
+  background: linear-gradient(130deg, rgba(255,153,113,1) 0%, rgba(234,117,159,1) 36%, rgba(40,75,253,1) 100%);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: 4.5rem;
+  padding: 1rem 0;
+  background-color: rgba(239, 247, 246, 0.6);
+  border-radius: 12.5px 12.5px 0 0;
+  opacity: 87%;
+  
+}
+
+header h1{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
+  background-image: linear-gradient(130deg, rgba(255,153,113,1) 0%, rgba(234,117,159,1) 36%, rgba(40,75,253,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  place-self: center;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+}
+
+nav {
+  margin-top: 5rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+li {
+  background-color: #EFF7F6;
+  width: 87%;
+  height: 4rem;
+  border-radius: 33px;
+  padding: 1.5rem 0;
+  text-align: center;
+  opacity: 90%;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgb(112, 103, 103);
+}
+
+button {
+  width: 40%;
+  height: 4rem;
+  border: none;
+  border-radius: 33px;
+  padding: 1.5rem 0;
+  text-align: center;
+  background-color: rgba(231, 197, 223, 0.5);
+  color: #EFF7F6;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 5rem auto;
+}
